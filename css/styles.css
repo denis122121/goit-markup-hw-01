@@ -21,7 +21,7 @@ body {
     font-family: var(--second-fond);
     color:var(--global-color-blue);
     font-size : 18px;
-    line-height : 1.16;
+    line-height : 1.17;
     letter-spacing : 0.54px;
 }
 
@@ -78,16 +78,18 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.64px;
 font-weight: 500;
+
 }
 .hero-button:hover,
-.hero-button:focus
+.hero-button:focus,
+.hero-button:cursor,pointer
 {
-    background-color: var(--active-button) ;
+    background-color : var(--active-button);
 }
 .hero-text {
     font-size: 56px;
     line-height: 60px;
-    letter-spacing: 1.12px;
+    letter-spacing: 1.07px;
     color: #FFF
 }
 
